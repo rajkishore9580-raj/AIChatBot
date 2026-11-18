@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "chatbot app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "chatbot",
+    "application"
+  ],
+  "author": "Akhil K",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^2.32.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.3.0",
+    "mongoose": "^8.24.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
